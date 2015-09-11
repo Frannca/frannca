@@ -15,6 +15,7 @@
 namespace App\Controller;
 
 use Cake\Controller\Controller;
+use Cake\Event\Event;
 
 /**
  * Application Controller
@@ -26,6 +27,7 @@ use Cake\Controller\Controller;
  */
 class AppController extends Controller
 {
+    public $theme = 'MaterialDesignLite';
 
     /**
      * Initialization hook method.
@@ -39,4 +41,5 @@ class AppController extends Controller
         parent::initialize();
         $this->loadComponent('Flash');
     }
+
 }
