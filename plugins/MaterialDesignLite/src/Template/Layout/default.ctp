@@ -30,6 +30,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->css('all.min.css') ?>
     <?= $this->Html->script('all.js') ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -42,19 +43,35 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
             <!-- Title -->
-            <span class="mdl-layout-title">Frannca</span>
+            <?= $this->Html->link(
+                __('Frannca'),
+                '/',
+                ['class' => 'mdl-layout-title']
+            ); ?>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation. We hide it in small screens. -->
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-                <a class="mdl-navigation__link" href="">About</a>
+                <?= $this->Html->link(
+                    __('About'),
+                    '/pages/about',
+                    ['class' => 'mdl-navigation__link']
+                ); ?>
             </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Frannca</span>
+            <?= $this->Html->link(
+                __('Frannca'),
+                '/',
+                ['class' => 'mdl-layout-title']
+            ); ?>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">About</a>
+                <?= $this->Html->link(
+                    __('About'),
+                    '/pages/about',
+                    ['class' => 'mdl-navigation__link']
+                ); ?>
             </nav>
         </div>
         <main class="mdl-layout__content">

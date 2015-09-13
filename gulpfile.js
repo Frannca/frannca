@@ -7,9 +7,12 @@ var sass        = require('gulp-sass');
 
 /** Sass generate */
 gulp.task('sass', function () {
-    gulp.src('./bower_components/material-design-lite/src/material-design-lite.scss')
+    gulp.src([
+            './bower_components/material-design-lite/src/material-design-lite.scss',
+            './plugins/MaterialDesignLite/webroot/sass/*.scss'
+        ])
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/'));
+        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/output/'));
 });
 
 /** JavaScript generate */
@@ -22,7 +25,7 @@ gulp.task('js', function() {
 
 /** CSS generate */
 gulp.task('css', function () {
-    gulp.src('./plugins/MaterialDesignLite/webroot/css/material-design-lite.css')
+    gulp.src('./plugins/MaterialDesignLite/webroot/css/output/*.css')
         .pipe(concatCss('all.min.css'))
         .pipe(compressor({
             'executeOption': {
