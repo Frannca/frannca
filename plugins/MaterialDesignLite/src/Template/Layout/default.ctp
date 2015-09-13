@@ -38,22 +38,24 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-            <!-- Title -->
-            <?= $this->Html->link(
-                __('Frannca'),
-                '/',
-                ['class' => 'mdl-layout-title']
-            ); ?>
-            <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer"></div>
-            <!-- Navigation. We hide it in small screens. -->
-            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <!-- Title -->
                 <?= $this->Html->link(
-                    __('About'),
-                    '/pages/about',
-                    ['class' => 'mdl-navigation__link']
+                    __('Frannca'),
+                    '/',
+                    ['class' => 'mdl-layout-title']
                 ); ?>
-            </nav>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <!-- GitHub follow button -->
+                    <a class="github-button" href="https://github.com/Frannca" data-style="mega" aria-label="<?= __('Follow @Frannca on GitHub') ?>"><?= __('Follow @Frannca') ?></a>
+                    <?= $this->Html->link(
+                        __('About'),
+                        '/pages/about',
+                        ['class' => 'mdl-navigation__link']
+                    ); ?>
+                </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer">
@@ -68,6 +70,10 @@
                     '/pages/about',
                     ['class' => 'mdl-navigation__link']
                 ); ?>
+                <!-- GitHub follow button -->
+                <span class="github-button">
+                    <a class="github-button mdl-navigation__link" href="https://github.com/Frannca" data-style="mega" aria-label="<?= __('Follow @Frannca on GitHub') ?>"><?= __('Follow @Frannca') ?></a>
+                </span>
             </nav>
         </div>
         <main class="mdl-layout__content">
@@ -77,6 +83,8 @@
             </div>
         </main>
     </div>
+    <!-- Place this tag right after the last button or just before your close body tag. -->
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 
 </body>
 </html>
