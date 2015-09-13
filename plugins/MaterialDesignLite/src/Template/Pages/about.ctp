@@ -1,3 +1,6 @@
+<?php
+$this->assign('title', __('About'));
+?>
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
         <h2 class="mdl-typography--display-3"><?= __('About') ?></h2>

@@ -54,6 +54,11 @@ class PagesController extends AppController
         $this->set(compact('page', 'subpage'));
 
         try {
+            if ($this->viewVars['page'] === 'home') {
+                $this->set('siteName', '');
+            } else {
+                $this->set('siteName', 'Frannca: ');
+            }
             $this->render(implode('/', $path));
         } catch (MissingTemplateException $e) {
             if (Configure::read('debug')) {

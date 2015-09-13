@@ -1,3 +1,6 @@
+<?php
+$this->assign('title', __('Frannca'));
+?>
 <style type="text/css">
     .demo-card-wide.mdl-card {
       width: 100%;
