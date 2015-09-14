@@ -23,28 +23,33 @@ $this->assign('title', __('Frannca'));
 </div>
 
 <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--hide-phone">
-
-    </div>
+    <!-- Empty div for next projets -->
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--hide-phone"></div>
+    <!-- Frannca project div -->
     <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--12-col-phone">
         <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <!-- Project title -->
             <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">Frannca</h2>
             </div>
+            <!-- Project description -->
             <div class="mdl-card__supporting-text">
             <?= __("Renato França's professional web site.") ?>
             </div>
+            <!-- More details link -->
             <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"><?= __('More Details') ?></a>
             </div>
+            <!-- GitHub icon link -->
             <div class="mdl-card__menu">
-                <a href="#" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                    <i class="material-icons">share</i>
+                <a href="https://github.com/Frannca/frannca.com" id="tt2" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons">code</i>
                 </a>
             </div>
         </div>
+        <!-- Code icon tooltip -->
+        <div class="mdl-tooltip mdl-tooltip--large" for="tt2"><?= __('Get code on GitHub') ?></div>
     </div>
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--hide-phone">
-
-    </div>
+    <!-- Empty div for next projets -->
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--hide-phone"></div>
 </div>
