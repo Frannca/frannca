@@ -49,7 +49,7 @@
                 <!-- Navigation. We hide it in small screens. -->
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
                     <!-- GitHub follow button -->
-                    <a class="github-button" href="https://github.com/Frannca" data-style="mega" aria-label="<?= __('Follow @Frannca on GitHub') ?>"><?= __('Follow @Frannca') ?></a>
+                    <a class="github-button" href="https://github.com/RenatoFranca" data-style="mega" aria-label="<?= __('Follow @RenatoFranca on GitHub') ?>"><?= __('Follow @RenatoFranca') ?></a>
                     <?= $this->Html->link(
                         __('About'),
                         '/pages/about',
@@ -72,7 +72,7 @@
                 ); ?>
                 <!-- GitHub follow button -->
                 <span class="github-button">
-                    <a class="github-button mdl-navigation__link" href="https://github.com/Frannca" data-style="mega" aria-label="<?= __('Follow @Frannca on GitHub') ?>"><?= __('Follow @Frannca') ?></a>
+                    <a class="github-button mdl-navigation__link" href="https://github.com/RenatoFranca" aria-label="<?= __('Follow @RenatoFranca on GitHub') ?>"><?= __('Follow @RenatoFranca') ?></a>
                 </span>
             </nav>
         </div>
