@@ -8,7 +8,6 @@ var sass        = require('gulp-sass');
 /** Sass generate */
 gulp.task('sass', function () {
     gulp.src([
-            './bower_components/material-design-lite/src/material-design-lite.scss',
             './plugins/MaterialDesignLite/webroot/sass/*.scss'
         ])
         .pipe(sass().on('error', sass.logError))
@@ -33,4 +32,18 @@ gulp.task('css', function () {
             }
         }))
         .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/'));
+});
+
+/** Octicons generate **/
+gulp.task('copyfonts', function() {
+    gulp.src('./bower_components/octicons/octicons/*.{ttf,woff,eof,svg}')
+    .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/separate/octicons/'));
+});
+
+gulp.task('octicons', ['copyfonts'], function() {
+    gulp.src([
+            './bower_components/octicons/octicons/octicons.scss'
+        ])
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/separate/octicons/'));
 });
