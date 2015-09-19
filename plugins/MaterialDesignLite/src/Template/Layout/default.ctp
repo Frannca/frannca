@@ -24,6 +24,7 @@
 
 
     <?= $this->Html->css('all.min.css') ?>
+    <?= $this->Html->css('separate/octicons/octicons.css') ?>
     <?= $this->Html->script('all.js') ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">

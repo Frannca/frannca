@@ -6,7 +6,7 @@ $this->assign('title', __('Frannca'));
       width: 100%;
     }
     .demo-card-wide > .mdl-card__title {
-      color: #fff;
+      color: rgb(244,67,54) !important;
       height: 176px;
       background: url('../assets/demos/welcome_card.jpg') center / cover;
     }
@@ -38,7 +38,7 @@ $this->assign('title', __('Frannca'));
             </div>
             <!-- More details link -->
             <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"><?= __('More Details') ?></a>
+                <?= $this->Html->link(__('More Details'), '/projects/frannca', ['class' => 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect']); ?>
             </div>
             <!-- GitHub icon link -->
             <div class="mdl-card__menu">
