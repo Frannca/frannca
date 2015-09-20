@@ -16,7 +16,7 @@
         </div>
         <span class="mdlc-divider"></span>
         <div class="mdl-card__supporting-text mdlc-card__space-80 mdlc-color-text--gray-800">
-            <h4><?= __('Resume') ?></h4>
+            <h4><?= __('Description') ?></h4>
             <p><?= __('Frannca is a professional website that exposes the projects of the software developer Renato França. Was designed to be simple and clean.') ?></p>
 
             <h4><?= __('Technologies') ?></h4>
