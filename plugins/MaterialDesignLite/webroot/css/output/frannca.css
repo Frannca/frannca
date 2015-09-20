@@ -9231,9 +9231,58 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     .mdl-grid--no-spacing > .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {
       width: 100%; } }
 
+/* ==========  Grid  ========== */
+.mdlc-grid__bottom-space {
+  margin-bottom: 60px; }
+
+/* ==========  Layout  ========== */
 .mdl-layout-title {
   color: inherit;
   text-decoration: inherit; }
 
+.mdlc-divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+/* ==========  Cards  ========== */
+.mdlc-project-card.mdl-card {
+  width: 100%; }
+
+.mdlc-project-card > .mdl-card__title {
+  color: #f44336 !important;
+  height: 200px; }
+
+.mdlc-card__title-no-space {
+  padding: 0; }
+
+.mdlc-card__title-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-top-right-radius: 2px;
+  padding: 8px 16px; }
+
+.mdlc-card__supporting-text-full {
+  width: initial; }
+
+.mdlc-card__space-80 {
+  padding: 80px;
+  width: initial; }
+
+.mdlc-card__list {
+  list-style: none;
+  padding-left: 0; }
+
+.mdlc-card__list li:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.mdlc-card__list li {
+  height: 48px;
+  line-height: 48px; }
+
+.mdl-card__title-frannca {
+  background: url("../../img/projects/card-frannca.png") #f44336 no-repeat center 58px; }
+
+.mdlc-color-text--gray-800 {
+  color: #424242 !important; }
+
+/* ==========  Miscellaneous  ========== */
 .github-button {
   padding: 16px 40px; }

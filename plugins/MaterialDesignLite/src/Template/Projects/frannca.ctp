@@ -1,42 +1,4 @@
-<?php
-$this->assign('title', __('Project: Frannca'));
-?>
-<style type="text/css">
-    .mdlc-divider {
-        border-top: 1px solid rgba(0,0,0,0.1);
-    }
-
-    .mdlc-color-text--gray-800 {
-        color: #424242 !important;
-    }
-
-    .mdlc-card__supporting-text-full {
-        width: initial;
-    }
-
-    .mdlc-card__space-80 {
-        padding: 80px;
-        width: initial;
-    }
-
-    .mdlc-grid__bottom-space {
-        margin-bottom: 60px;
-    }
-
-    .mdlc-card__list {
-        list-style: none;
-        padding-left: 0;
-    }
-
-    .mdlc-card__list li:not(:last-child) {
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-
-    .mdlc-card__list li {
-        height: 48px;
-        line-height: 48px;
-    }
-</style>
+<?php $this->assign('title', __('Project: Frannca')); ?>
 
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
@@ -54,7 +16,7 @@ $this->assign('title', __('Project: Frannca'));
         </div>
         <span class="mdlc-divider"></span>
         <div class="mdl-card__supporting-text mdlc-card__space-80 mdlc-color-text--gray-800">
-            <h4><?= __('Resume') ?></h4>
+            <h4><?= __('Description') ?></h4>
             <p><?= __('Frannca is a professional website that exposes the projects of the software developer Renato França. Was designed to be simple and clean.') ?></p>
 
             <h4><?= __('Technologies') ?></h4>
