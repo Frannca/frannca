@@ -34,15 +34,83 @@ $color-accent-contrast:   255,255,255;  // White
  */
 @import "./bower_components/material-design-lite/src/material-design-lite.scss";
 
+/* ==========  Grid  ========== */
+
+    .mdlc-grid__bottom-space {
+        margin-bottom: 60px;
+    }
+
+/* ==========  Layout  ========== */
+
+    .mdl-layout-title {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    .mdlc-divider {
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+
+/* ==========  Cards  ========== */
+
+    .mdlc-project-card.mdl-card {
+        width: 100%;
+    }
+    .mdlc-project-card {
+        > .mdl-card__title {
+            color: rgb(244,67,54) !important;
+            height: 200px;
+        }
+    }
+
+    .mdlc-card__title-no-space {
+        padding: 0;
+    }
+
+    .mdlc-card__title-caption {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-top-right-radius: 2px;
+        padding: 8px 16px;
+    }
+
+    .mdlc-card__supporting-text-full {
+        width: initial;
+    }
+
+    .mdlc-card__space-80 {
+        padding: 80px;
+        width: initial;
+    }
+
+    .mdlc-card__list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .mdlc-card__list  {
+        li:not(:last-child) {
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+    }
+
+    .mdlc-card__list {
+        li {
+            height: 48px;
+            line-height: 48px;
+        }
+    }
+
+    .mdl-card__title-frannca {
+        background: url('../../img/projects/card-frannca.png') rgb(244,67,54) no-repeat center 58px;
+    }
 
 
-// Site name link
-.mdl-layout-title {
-	color: inherit;
-	text-decoration: inherit;
-}
+    .mdlc-color-text--gray-800 {
+        color: #424242 !important;
+    }
 
-// GitHub button adjust for side menu
-.github-button {
-	padding: 16px 40px;
-}
+/* ==========  Miscellaneous  ========== */
+
+    .github-button {
+        padding: 16px 40px;
+    }

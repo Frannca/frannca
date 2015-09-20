@@ -1,42 +1,4 @@
-<?php
-$this->assign('title', __('Project: Frannca'));
-?>
-<style type="text/css">
-    .mdlc-divider {
-        border-top: 1px solid rgba(0,0,0,0.1);
-    }
-
-    .mdlc-color-text--gray-800 {
-        color: #424242 !important;
-    }
-
-    .mdlc-card__supporting-text-full {
-        width: initial;
-    }
-
-    .mdlc-card__space-80 {
-        padding: 80px;
-        width: initial;
-    }
-
-    .mdlc-grid__bottom-space {
-        margin-bottom: 60px;
-    }
-
-    .mdlc-card__list {
-        list-style: none;
-        padding-left: 0;
-    }
-
-    .mdlc-card__list li:not(:last-child) {
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-
-    .mdlc-card__list li {
-        height: 48px;
-        line-height: 48px;
-    }
-</style>
+<?php $this->assign('title', __('Project: Frannca')); ?>
 
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
