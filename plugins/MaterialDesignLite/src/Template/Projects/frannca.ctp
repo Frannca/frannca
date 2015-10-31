@@ -15,14 +15,15 @@
             <!-- Project title -->
             <div class="mdl-card__supporting-text mdl-typography--text-center mdlc-card__supporting-text-full mdlc-color-text--gray-800">
                 <h3><?= __('Frannca') ?></h3>
-                <h4><?= __('Programming is an art') ?></h4>
+                <h4><?= __('Solutions for your business') ?></h4>
             </div>
             <span class="mdlc-divider"></span>
             <div class="mdl-card__supporting-text mdlc-card__space-80 mdlc-color-text--gray-800">
                 <h4><?= __('Description') ?></h4>
-                <p><?= __('Frannca is a professional website that exposes the projects of the software developer Renato França. Was designed to be simple and clean.') ?></p>
+                <p><?= __('We develop our own website and provide its source code on GitHub. Feel free to check the quality of our work that goes beyond the visual.') ?></p>
 
                 <h4><?= __('Technologies') ?></h4>
+                <p><?= __('Learn about the technologies used in this project.') ?></p>
                 <ul class="mdlc-card__list">
                     <li>Bower</li>
                     <li>CakePHP</li>
@@ -32,12 +33,10 @@
                 </ul>
             </div>
             <div class="mdl-card__menu">
-                <?= $this->Html->link('<span class="octicon octicon-repo-forked"></span>', 'https://github.com/Frannca/frannca.com/fork', ['id' => 'tt-fork', 'class' => 'mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect', 'escape' => false]); ?>
                 <?= $this->Html->link('<span class="octicon octicon-code"></span>', 'https://github.com/Frannca/frannca.com', ['id' => 'tt-get-code', 'class' => 'mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect', 'escape' => false]); ?>
             </div>
         </div>
         <!-- Tooltips -->
-        <div class="mdl-tooltip mdl-tooltip--large" for="tt-fork"><?= __('Fork on GitHub') ?></div>
         <div class="mdl-tooltip mdl-tooltip--large" for="tt-get-code"><?= __('Get code on GitHub') ?></div>
     </div>
 </div>
