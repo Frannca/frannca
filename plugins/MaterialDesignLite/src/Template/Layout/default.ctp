@@ -44,10 +44,9 @@
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <?= $this->Html->link(
-                    __('Frannca'),
+                <?= $this->Html->link($this->Html->image('logo.png'),
                     '/',
-                    ['class' => 'mdl-layout-title']
+                    ['class' => 'mdl-layout-title', 'escape' => false]
                 ); ?>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
