@@ -19,9 +19,13 @@
 <head>
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+      - Meta Tags
+      - Used for SEO impact
+      -->
     <title><?= $siteName ?><?= $this->fetch('title') ?></title>
     <?= $this->Html->meta('icon') ?>
-
 
     <?= $this->Html->css('all.min.css') ?>
     <?= $this->Html->css('separate/octicons/octicons.css') ?>

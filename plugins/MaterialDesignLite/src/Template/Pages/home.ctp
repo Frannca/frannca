@@ -1,5 +1,9 @@
-<?php $this->assign('title', __('Frannca')); ?>
-
+<?php 
+// Title
+$this->assign('title', __('Frannca'));
+// Meta Description
+$this->append('meta', $this->Html->meta("description", "Frannca develops solutions for your business."));
+?>
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
         <h2 class="mdl-typography--display-3"><?= __('Programming is an art') ?></h2>
