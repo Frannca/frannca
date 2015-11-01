@@ -10,9 +10,7 @@ class ProjectsController extends AppController
     /**
      * Displays a project
      *
-     * @return TODO
-     * @throws \Cake\Network\Exception\NotFoundException When the project data could not
-     *   be found.
+     * @return void
      */
     public function frannca()
     {
