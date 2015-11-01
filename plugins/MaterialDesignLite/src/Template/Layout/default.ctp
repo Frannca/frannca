@@ -44,7 +44,7 @@
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <?= $this->Html->link($this->Html->image('logo.png'),
+                <?= $this->Html->link($this->Html->image('logo-white.png'),
                     '/',
                     ['class' => 'mdl-layout-title', 'escape' => false]
                 ); ?>
@@ -61,10 +61,9 @@
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            <?= $this->Html->link(
-                __('Frannca'),
+            <?= $this->Html->link($this->Html->image('logo.png'),
                 '/',
-                ['class' => 'mdl-layout-title']
+                ['class' => 'mdl-layout-title', 'escape' => false]
             ); ?>
             <nav class="mdl-navigation">
                 <?= $this->Html->link(
