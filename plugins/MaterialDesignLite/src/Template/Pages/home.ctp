@@ -2,7 +2,7 @@
 // Title
 $this->assign('title', __('Frannca'));
 // Meta Description
-$this->append('meta', $this->Html->meta("description", "Frannca develops solutions for your business."));
+$this->append('meta', $this->Html->meta("description", __('Frannca develops solutions for your business.')));
 ?>
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">

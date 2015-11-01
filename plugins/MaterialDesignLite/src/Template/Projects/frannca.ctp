@@ -1,4 +1,9 @@
-<?php $this->assign('title', __('Project: Frannca')); ?>
+<?php 
+// Title
+$this->assign('title', __('Project: Frannca'));
+// Meta Description
+$this->append('meta', $this->Html->meta("description", __('We develop our own website and provide its source code on GitHub.')));
+?>
 
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
