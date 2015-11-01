@@ -33,7 +33,7 @@
                 </ul>
             </div>
             <div class="mdl-card__menu">
-                <?= $this->Html->link('<span class="octicon octicon-code"></span>', 'https://github.com/Frannca/frannca.com', ['id' => 'tt-get-code', 'class' => 'mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect', 'escape' => false]); ?>
+                <?= $this->Html->link('<i class="fa fa-code"></i>', 'https://github.com/Frannca/frannca.com', ['id' => 'tt-get-code', 'class' => 'mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect', 'escape' => false]); ?>
             </div>
         </div>
         <!-- Tooltips -->
