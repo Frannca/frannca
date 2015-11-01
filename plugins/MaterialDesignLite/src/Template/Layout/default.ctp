@@ -19,9 +19,13 @@
 <head>
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+      - Meta Tags
+      - Used for SEO impact
+      -->
     <title><?= $siteName ?><?= $this->fetch('title') ?></title>
     <?= $this->Html->meta('icon') ?>
-
 
     <?= $this->Html->css('all.min.css') ?>
     <?= $this->Html->css('separate/octicons/octicons.css') ?>
@@ -40,17 +44,14 @@
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <?= $this->Html->link(
-                    __('Frannca'),
+                <?= $this->Html->link($this->Html->image('logo-white.png'),
                     '/',
-                    ['class' => 'mdl-layout-title']
+                    ['class' => 'mdl-layout-title', 'escape' => false]
                 ); ?>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
                 <!-- Navigation. We hide it in small screens. -->
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <!-- GitHub follow button -->
-                    <a class="github-button" href="https://github.com/RenatoFranca" data-style="mega" aria-label="<?= __('Follow @RenatoFranca on GitHub') ?>"><?= __('Follow @RenatoFranca') ?></a>
                     <?= $this->Html->link(
                         __('About'),
                         '/pages/about',
@@ -60,10 +61,9 @@
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            <?= $this->Html->link(
-                __('Frannca'),
+            <?= $this->Html->link($this->Html->image('logo.png'),
                 '/',
-                ['class' => 'mdl-layout-title']
+                ['class' => 'mdl-layout-title', 'escape' => false]
             ); ?>
             <nav class="mdl-navigation">
                 <?= $this->Html->link(
@@ -71,10 +71,6 @@
                     '/pages/about',
                     ['class' => 'mdl-navigation__link']
                 ); ?>
-                <!-- GitHub follow button -->
-                <span class="github-button">
-                    <a class="github-button mdl-navigation__link" href="https://github.com/RenatoFranca" aria-label="<?= __('Follow @RenatoFranca on GitHub') ?>"><?= __('Follow @RenatoFranca') ?></a>
-                </span>
             </nav>
         </div>
         <main class="mdl-layout__content">

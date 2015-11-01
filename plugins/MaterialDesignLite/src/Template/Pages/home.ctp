@@ -1,9 +1,13 @@
-<?php $this->assign('title', __('Frannca')); ?>
-
+<?php 
+// Title
+$this->assign('title', __('Frannca'));
+// Meta Description
+$this->append('meta', $this->Html->meta("description", "Frannca develops solutions for your business."));
+?>
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
-        <h2 class="mdl-typography--display-3"><?= __('Programming is an art') ?></h2>
-        <h3 class="mdl-typography--headline-2"><?= __('Changes the world around you') ?></h3>
+        <h2 class="mdl-typography--display-3"><?= __('Solutions for your business') ?></h2>
+        <h3 class="mdl-typography--headline-2"><?= __('See some of our work') ?></h3>
     </div>
 </div>
 
@@ -19,7 +23,7 @@
             </div>
             <!-- Project description -->
             <div class="mdl-card__supporting-text">
-                <?= __("Renato França's professional web site.") ?>
+                <?= __("Frannca company website.") ?>
             </div>
             <!-- More details link -->
             <div class="mdl-card__actions mdl-card--border">
@@ -27,12 +31,10 @@
             </div>
             <!-- GitHub icon link -->
             <div class="mdl-card__menu mdl-color-text--primary-contrast">
-                <?= $this->Html->link('<span class="octicon octicon-repo-forked"></span>', 'https://github.com/Frannca/frannca.com/fork', ['id' => 'tt-fork', 'class' => 'mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect', 'escape' => false]); ?>
                 <?= $this->Html->link('<span class="octicon octicon-code"></span>', 'https://github.com/Frannca/frannca.com', ['id' => 'tt-get-code', 'class' => 'mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect', 'escape' => false]); ?>
             </div>
         </div>
         <!-- Tooltips -->
-        <div class="mdl-tooltip mdl-tooltip--large" for="tt-fork"><?= __('Fork on GitHub') ?></div>
         <div class="mdl-tooltip mdl-tooltip--large" for="tt-get-code"><?= __('Get code on GitHub') ?></div>
     </div>
     <!-- Empty div for next projets -->

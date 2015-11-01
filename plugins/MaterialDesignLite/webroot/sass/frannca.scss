@@ -20,8 +20,8 @@
  * Must be before import Material Design Lite
  * Colors in RGB
  */
-$color-primary:           244,67,54;    // Red 500
-$color-primary-dark:      211,47,47;    // Red 700
+$color-primary:           211,47,47;    // Red 700
+$color-primary-dark:      183,28,28;    // Red 900
 $color-accent:            33,150,243;   // Blue 500
 $color-primary-contrast:  255,255,255;  // White
 $color-accent-contrast:   255,255,255;  // White
@@ -101,7 +101,7 @@ $color-accent-contrast:   255,255,255;  // White
     }
 
     .mdl-card__title-frannca {
-        background: url('../../img/projects/card-frannca.png') rgb(244,67,54) no-repeat center 58px;
+        background: url('../../img/projects/card-frannca.png') rgb(211,47,47) no-repeat center 58px;
     }
 
 
