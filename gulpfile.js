@@ -9,7 +9,7 @@ var paths = {
     sass:       './plugins/MaterialDesignLite/webroot/sass/*.scss',
     css:        './plugins/MaterialDesignLite/webroot/css/output/*.css',
     scripts:    './bower_components/material-design-lite/material.min.js',
-    fonts:      './bower_components/octicons/octicons/*.{ttf,woff,eof,svg}',
+    fonts:      './bower_components/font-awesome/fonts/*.{otf,eot,svg,ttf,woff,woff2}',
 };
 
 /** Sass generate */
@@ -39,16 +39,16 @@ gulp.task('css', function () {
         .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/'));
 });
 
-/** Octicons generate **/
+/** Fontawesome generate **/
 gulp.task('copyfonts', function() {
     gulp.src(paths.fonts)
-    .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/separate/octicons/'));
+    .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/separate/fonts/'));
 });
 
-gulp.task('octicons', ['copyfonts'], function() {
-    gulp.src(['./bower_components/octicons/octicons/octicons.scss'])
+gulp.task('font-awesome', ['copyfonts'], function() {
+    gulp.src(['./bower_components/font-awesome/scss/font-awesome.scss'])
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/separate/octicons/'));
+        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/separate/font-awesome/'));
 });
 
 /** Watch files **/
