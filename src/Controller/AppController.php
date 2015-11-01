@@ -16,6 +16,7 @@ namespace App\Controller;
 
 use Cake\Controller\Controller;
 use Cake\Event\Event;
+use Cake\I18n\I18n;
 
 /**
  * Application Controller
@@ -27,7 +28,17 @@ use Cake\Event\Event;
  */
 class AppController extends Controller
 {
+    /**
+     * Site theme
+     * @var string
+     */
     public $theme = 'MaterialDesignLite';
+
+    /**
+     * pt_BR domains
+     * @var array
+     */
+    private $ptBr = ['frannca.com.br', 'dev.frannca.com.br'];
 
     /**
      * Initialization hook method.
@@ -40,6 +51,20 @@ class AppController extends Controller
     {
         parent::initialize();
         $this->loadComponent('Flash');
+        $this->setLanguage();
+    }
+
+    /**
+     * Sets the site language according to the domain
+     *
+     * @return  void
+     */
+    public function setLanguage()
+    {
+        if (in_array($_SERVER['SERVER_NAME'], $this->ptBr))
+        {
+            I18n::locale('pt_BR');
+        }
     }
 
 }
