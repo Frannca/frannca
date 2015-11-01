@@ -4,20 +4,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Frannca 0.6.0\n"
-"POT-Creation-Date: 2015-11-01 12:53+0000\n"
-"PO-Revision-Date: 2015-11-01 10:22-0300\n"
+"POT-Creation-Date: 2015-11-01 21:16+0000\n"
+"PO-Revision-Date: 2015-11-01 19:06-0300\n"
 "Last-Translator: \n"
 "Language-Team: Frannca\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: pt_BR\n"
 
-#: Template/Layout/default.ctp:56;70 Template/Pages/about.ctp:3;9
+#: Template/Layout/default.ctp:56;80 Template/Pages/about.ctp:3;9
 msgid "About"
 msgstr "Sobre"
+
+#: Template/Pages/about.ctp:5
+msgid "Frannca is a startup that develops solutions for your business."
+msgstr "Frannca é uma startup que desenvolve soluções para o seu negócio."
 
 #: Template/Pages/about.ctp:16
 msgid ""
@@ -31,11 +35,15 @@ msgstr ""
 "gerais para a internet. Frannca foi fundada por <b>Renato França</b> em 16 "
 "de Outubro de 2015."
 
-#: Template/Pages/home.ctp:3 Template/Projects/frannca.ctp:17
+#: Template/Pages/home.ctp:3 Template/Projects/frannca.ctp:22
 msgid "Frannca"
 msgstr "Frannca"
 
-#: Template/Pages/home.ctp:9 Template/Projects/frannca.ctp:18
+#: Template/Pages/home.ctp:5
+msgid "Frannca develops solutions for your business."
+msgstr "Frannca desenvolve soluções para o seu negócio."
+
+#: Template/Pages/home.ctp:9 Template/Projects/frannca.ctp:23
 msgid "Solutions for your business"
 msgstr "Soluções para o seu negócio"
 
@@ -51,23 +59,28 @@ msgstr "Site da empresa Frannca."
 msgid "More Details"
 msgstr "Mais Detalhes"
 
-#: Template/Pages/home.ctp:38 Template/Projects/frannca.ctp:40
+#: Template/Pages/home.ctp:38 Template/Projects/frannca.ctp:45
 msgid "Get code on GitHub"
 msgstr "Pegar código no GitHub"
 
-#: Template/Projects/frannca.ctp:1
+#: Template/Projects/frannca.ctp:3
 msgid "Project: Frannca"
 msgstr "Projeto: Frannca"
 
 #: Template/Projects/frannca.ctp:5
+msgid "We develop our own website and provide its source code on GitHub."
+msgstr ""
+"Nós desenvolvemos nosso próprio site e fornecemos seu código-fonte no GitHub."
+
+#: Template/Projects/frannca.ctp:10
 msgid "Project"
 msgstr "Projeto"
 
-#: Template/Projects/frannca.ctp:22
+#: Template/Projects/frannca.ctp:27
 msgid "Description"
 msgstr "Descrição"
 
-#: Template/Projects/frannca.ctp:23
+#: Template/Projects/frannca.ctp:28
 msgid ""
 "We develop our own website and provide its source code on GitHub. Feel free "
 "to check the quality of our work that goes beyond the visual."
@@ -76,10 +89,10 @@ msgstr ""
 "GitHub. Sinta-se livre para verificar a qualidade do nosso trabalho que vai "
 "além do visual."
 
-#: Template/Projects/frannca.ctp:25
+#: Template/Projects/frannca.ctp:30
 msgid "Technologies"
 msgstr "Tecnologias"
 
-#: Template/Projects/frannca.ctp:26
+#: Template/Projects/frannca.ctp:31
 msgid "Learn about the technologies used in this project."
 msgstr "Saiba mais sobre as tecnologias utilizadas neste projeto."
