@@ -13,7 +13,7 @@ $this->append('meta', $this->Html->meta("description", "Frannca is a startup tha
 <div class="mdl-grid">
 	<div class="mdl-cell mdl-cell--3-col"></div>
 	<div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--8-col-tablet">
-		<p><b>Frannca</b> is a brazilian startup that develops solutions for the internet. Creates websites according to customer needs and general solutions for the Internet. Frannca was founded by <b>Renato França</b> in October 16, 2015.</p>
+		<p><?= __('<b>Frannca</b> is a brazilian startup that develops solutions for the internet. Creates websites according to customer needs and general solutions for the Internet. Frannca was founded by <b>Renato França</b> in October 16, 2015.') ?></p>
 	</div>
 	<div class="mdl-cell mdl-cell--3-col"></div>
 </div>
