@@ -61,10 +61,8 @@ class AppController extends Controller
      */
     public function setLanguage()
     {
-        if (in_array($_SERVER['SERVER_NAME'], $this->ptBr))
-        {
+        if (in_array($_SERVER['SERVER_NAME'], $this->ptBr)) {
             I18n::locale('pt_BR');
         }
     }
-
 }
