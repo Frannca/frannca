@@ -1,36 +1,43 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2015-11-01 12:53+0000\n"
-"PO-Revision-Date: 2015-11-01 09:58-0300\n"
+"POT-Creation-Date: 2015-11-01 21:16+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 1.5.4\n"
 
-#: Template/Layout/default.ctp:56;70 Template/Pages/about.ctp:3;9
+#: Template/Layout/default.ctp:56;80
+#: Template/Pages/about.ctp:3;9
 msgid "About"
 msgstr ""
 
-#: Template/Pages/about.ctp:16
-msgid ""
-"<b>Frannca</b> is a brazilian startup that develops solutions for the "
-"internet. Creates websites according to customer needs and general solutions "
-"for the Internet. Frannca was founded by <b>Renato França</b> in October 16, "
-"2015."
+#: Template/Pages/about.ctp:5
+msgid "Frannca is a startup that develops solutions for your business."
 msgstr ""
 
-#: Template/Pages/home.ctp:3 Template/Projects/frannca.ctp:17
+#: Template/Pages/about.ctp:16
+msgid "<b>Frannca</b> is a brazilian startup that develops solutions for the internet. Creates websites according to customer needs and general solutions for the Internet. Frannca was founded by <b>Renato França</b> in October 16, 2015."
+msgstr ""
+
+#: Template/Pages/home.ctp:3
+#: Template/Projects/frannca.ctp:22
 msgid "Frannca"
 msgstr ""
 
-#: Template/Pages/home.ctp:9 Template/Projects/frannca.ctp:18
+#: Template/Pages/home.ctp:5
+msgid "Frannca develops solutions for your business."
+msgstr ""
+
+#: Template/Pages/home.ctp:9
+#: Template/Projects/frannca.ctp:23
 msgid "Solutions for your business"
 msgstr ""
 
@@ -46,32 +53,36 @@ msgstr ""
 msgid "More Details"
 msgstr ""
 
-#: Template/Pages/home.ctp:38 Template/Projects/frannca.ctp:40
+#: Template/Pages/home.ctp:38
+#: Template/Projects/frannca.ctp:45
 msgid "Get code on GitHub"
 msgstr ""
 
-#: Template/Projects/frannca.ctp:1
+#: Template/Projects/frannca.ctp:3
 msgid "Project: Frannca"
 msgstr ""
 
 #: Template/Projects/frannca.ctp:5
+msgid "We develop our own website and provide its source code on GitHub."
+msgstr ""
+
+#: Template/Projects/frannca.ctp:10
 msgid "Project"
 msgstr ""
 
-#: Template/Projects/frannca.ctp:22
+#: Template/Projects/frannca.ctp:27
 msgid "Description"
 msgstr ""
 
-#: Template/Projects/frannca.ctp:23
-msgid ""
-"We develop our own website and provide its source code on GitHub. Feel free "
-"to check the quality of our work that goes beyond the visual."
+#: Template/Projects/frannca.ctp:28
+msgid "We develop our own website and provide its source code on GitHub. Feel free to check the quality of our work that goes beyond the visual."
 msgstr ""
 
-#: Template/Projects/frannca.ctp:25
+#: Template/Projects/frannca.ctp:30
 msgid "Technologies"
 msgstr ""
 
-#: Template/Projects/frannca.ctp:26
+#: Template/Projects/frannca.ctp:31
 msgid "Learn about the technologies used in this project."
 msgstr ""
+
