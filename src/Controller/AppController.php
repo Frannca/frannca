@@ -28,11 +28,6 @@ use Cake\I18n\I18n;
  */
 class AppController extends Controller
 {
-    /**
-     * Site theme
-     * @var string
-     */
-    public $theme = 'MaterialDesignLite';
 
     /**
      * pt_BR domains
@@ -51,13 +46,24 @@ class AppController extends Controller
     {
         parent::initialize();
         $this->loadComponent('Flash');
+        $this->setTheme();
         $this->setLanguage();
+    }
+
+    /**
+     * Sets the site theme
+     *
+     * @return void
+     */
+    public function setTheme()
+    {
+        $this->viewBuilder()->theme('MaterialDesignLite');
     }
 
     /**
      * Sets the site language according to the domain
      *
-     * @return  void
+     * @return void
      */
     public function setLanguage()
     {

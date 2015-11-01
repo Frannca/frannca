@@ -28,7 +28,7 @@
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css('all.min.css') ?>
-    <?= $this->Html->css('separate/octicons/octicons.css') ?>
+    <?= $this->Html->css('separate/font-awesome/font-awesome.css') ?>
     <?= $this->Html->script('all.js') ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
@@ -57,6 +57,16 @@
                         '/pages/about',
                         ['class' => 'mdl-navigation__link']
                     ); ?>
+                </nav>
+                <nav class="mdl-navigation">
+                    <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="fa fa-language"></i>
+                    </button>
+
+                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+                        <li class="mdl-menu__item mdl-menu__item-link"><?= $this->Html->link('English', 'http://frannca.com'); ?></li>
+                        <li class="mdl-menu__item mdl-menu__item-link"><?= $this->Html->link('Português', 'http://frannca.com.br'); ?></li>
+                    </ul>
                 </nav>
             </div>
         </header>
