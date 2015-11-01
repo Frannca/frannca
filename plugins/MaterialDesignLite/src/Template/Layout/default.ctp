@@ -58,6 +58,16 @@
                         ['class' => 'mdl-navigation__link']
                     ); ?>
                 </nav>
+                <nav class="mdl-navigation">
+                    <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons">more_vert</i>
+                    </button>
+
+                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+                        <li class="mdl-menu__item mdl-menu__item-link"><?= $this->Html->link('English', 'http://frannca.com'); ?></li>
+                        <li class="mdl-menu__item mdl-menu__item-link"><?= $this->Html->link('Português', 'http://frannca.com.br'); ?></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer">
