@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Frannca 0.6.0\n"
-"POT-Creation-Date: 2016-03-08 00:41+0000\n"
-"PO-Revision-Date: 2016-03-07 21:45-0300\n"
+"POT-Creation-Date: 2016-03-08 23:43+0000\n"
+"PO-Revision-Date: 2016-03-08 20:45-0300\n"
 "Last-Translator: Renato França <renato.franca@frannca.com.br>\n"
 "Language-Team: Frannca\n"
 "Language: pt_BR\n"
@@ -51,34 +51,122 @@ msgstr "Soluções para o seu negócio"
 msgid "See some of our works"
 msgstr "Veja alguns dos nossos trabalhos"
 
-#: Template/Pages/home.ctp:26
-msgid "Frannca company website."
-msgstr "Site da empresa Frannca."
+#: Template/Pages/home.ctp:20 Template/Projects/cma.ctp:22
+msgid "CMA"
+msgstr "CMA"
 
-#: Template/Pages/home.ctp:30
+#: Template/Pages/home.ctp:24
+msgid "CMA college."
+msgstr "Colégio CMA."
+
+#: Template/Pages/home.ctp:28;45;62;80
 msgid "More Details"
 msgstr "Mais Detalhes"
 
-#: Template/Pages/home.ctp:38 Template/Projects/frannca.ctp:45
+#: Template/Pages/home.ctp:37 Template/Projects/aesga.ctp:22
+msgid "AESGA"
+msgstr "AESGA"
+
+#: Template/Pages/home.ctp:41
+msgid "AESGA university."
+msgstr "Faculdade AESGA."
+
+#: Template/Pages/home.ctp:54 Template/Projects/cespa.ctp:22
+msgid "CESPA"
+msgstr "CESPA"
+
+#: Template/Pages/home.ctp:58
+msgid "Entrance exam of AESGA university."
+msgstr "Vestibular da faculdade AESGA."
+
+#: Template/Pages/home.ctp:76
+msgid "Frannca company."
+msgstr "Empresa Frannca."
+
+#: Template/Pages/home.ctp:88 Template/Projects/aesga.ctp:43
+#: Template/Projects/cespa.ctp:43 Template/Projects/cma.ctp:43
+#: Template/Projects/frannca.ctp:45
 msgid "Get code on GitHub"
 msgstr "Pegar código no GitHub"
 
-#: Template/Projects/frannca.ctp:3
-msgid "Project: Frannca"
-msgstr "Projeto: Frannca"
+#: Template/Projects/aesga.ctp:3
+msgid "Project: AESGA"
+msgstr "Projeto: AESGA"
 
-#: Template/Projects/frannca.ctp:5
+#: Template/Projects/aesga.ctp:5 Template/Projects/cespa.ctp:5
+#: Template/Projects/cma.ctp:5 Template/Projects/frannca.ctp:5
 msgid "We develop our own website and provide its source code on GitHub."
 msgstr ""
 "Nós desenvolvemos nosso próprio site e fornecemos seu código-fonte no GitHub."
 
-#: Template/Projects/frannca.ctp:10
+#: Template/Projects/aesga.ctp:10 Template/Projects/cespa.ctp:10
+#: Template/Projects/cma.ctp:10 Template/Projects/frannca.ctp:10
 msgid "Project"
 msgstr "Projeto"
 
-#: Template/Projects/frannca.ctp:27
+#: Template/Projects/aesga.ctp:23
+msgid "Autarquia do Ensino Superior de Garanhuns"
+msgstr "Autarquia do Ensino Superior de Garanhuns"
+
+#: Template/Projects/aesga.ctp:27 Template/Projects/cespa.ctp:27
+#: Template/Projects/cma.ctp:27 Template/Projects/frannca.ctp:27
 msgid "Description"
 msgstr "Descrição"
+
+#: Template/Projects/aesga.ctp:28
+msgid ""
+"The AESGA was created in order to meet the vocation of the city of Garanhuns "
+"and allow the creation of other higher education institutions."
+msgstr ""
+"A AESGA foi criada com a finalidade de atender a vocação da cidade de "
+"Garanhuns e permitir a criação de outras instituições de educação superior."
+
+#: Template/Projects/aesga.ctp:30 Template/Projects/cespa.ctp:30
+#: Template/Projects/cma.ctp:30 Template/Projects/frannca.ctp:30
+msgid "Technologies"
+msgstr "Tecnologias"
+
+#: Template/Projects/aesga.ctp:31 Template/Projects/cespa.ctp:31
+#: Template/Projects/cma.ctp:31 Template/Projects/frannca.ctp:31
+msgid "Learn about the technologies used in this project."
+msgstr "Saiba mais sobre as tecnologias utilizadas neste projeto."
+
+#: Template/Projects/cespa.ctp:3
+msgid "Project: CESPA"
+msgstr "Projeto: CESPA"
+
+#: Template/Projects/cespa.ctp:23
+msgid "Centro de Seleção e Processamento de Dados"
+msgstr "Centro de Seleção e Processamento de Dados"
+
+#: Template/Projects/cespa.ctp:28
+msgid ""
+"CESPA is the selection center to join the supeior AESGA educational "
+"institution."
+msgstr ""
+"CESPA é o centro de seleção para ingressar na instituição de ensino supeior "
+"AESGA."
+
+#: Template/Projects/cma.ctp:3
+msgid "Project: CMA"
+msgstr "Projeto: CMA"
+
+#: Template/Projects/cma.ctp:23
+msgid "Colégio Monsenhor Adelmar da Mota Valença"
+msgstr "Colégio Monsenhor Adelmar da Mota Valença"
+
+#: Template/Projects/cma.ctp:28
+msgid ""
+"Founded in the city of Garanhuns in 1956 by Monsignor Adelmar Mota Valencia, "
+"the CMA is an educational institution that extols education in Garanhuns."
+msgstr ""
+"Fundada na cidade de Garanhuns, em 1956 pelo Monsenhor Adelmar da Mota "
+"Valença, o CMA é uma instituíção de ensino que enaltece a educação em "
+"Garanhuns."
+
+#: Template/Projects/frannca.ctp:3
+msgid "Project: Frannca"
+msgstr "Projeto: Frannca"
 
 #: Template/Projects/frannca.ctp:28
 msgid ""
@@ -88,14 +176,6 @@ msgstr ""
 "Nós desenvolvemos nosso próprio site e fornecemos seu código-fonte no "
 "GitHub. Sinta-se livre para verificar a qualidade do nosso trabalho que vai "
 "além do visual."
-
-#: Template/Projects/frannca.ctp:30
-msgid "Technologies"
-msgstr "Tecnologias"
-
-#: Template/Projects/frannca.ctp:31
-msgid "Learn about the technologies used in this project."
-msgstr "Saiba mais sobre as tecnologias utilizadas neste projeto."
 
 #: Controller/Component/AuthComponent.php:454
 msgid "You are not authorized to access that location."
@@ -251,6 +331,10 @@ msgstr ""
 
 #: ORM/RulesChecker.php:83
 msgid "This value does not exist"
+msgstr ""
+
+#: Utility/Text.php:724
+msgid "and"
 msgstr ""
 
 #: Validation/Validator.php:102

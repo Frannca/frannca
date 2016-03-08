@@ -12,10 +12,60 @@ $this->append('meta', $this->Html->meta("description", __('Frannca develops solu
 </div>
 
 <div class="mdl-grid">
-    <!-- Empty div for next projets -->
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
+    <!-- CMA project div -->
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+        <div class="mdlc-project-card mdl-card mdl-shadow--2dp">
+            <!-- Project title -->
+            <div class="mdl-card__title mdl-card__title-cma mdlc-card__title-no-space">
+                <h2 class="mdl-card__title-text mdl-color-text--primary-contrast mdlc-card__title-caption"><?= __('CMA') ?></h2>
+            </div>
+            <!-- Project description -->
+            <div class="mdl-card__supporting-text">
+                <?= __('CMA college.') ?>
+            </div>
+            <!-- More details link -->
+            <div class="mdl-card__actions mdl-card--border">
+                <?= $this->Html->link(__('More Details'), '/projects/cma', ['class' => 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect']); ?>
+            </div>
+        </div>
+    </div>
+    <!-- AESGA project div -->
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+        <div class="mdlc-project-card mdl-card mdl-shadow--2dp">
+            <!-- Project title -->
+            <div class="mdl-card__title mdl-card__title-aesga mdlc-card__title-no-space">
+                <h2 class="mdl-card__title-text mdl-color-text--primary-contrast mdlc-card__title-caption"><?= __('AESGA') ?></h2>
+            </div>
+            <!-- Project description -->
+            <div class="mdl-card__supporting-text">
+                <?= __('AESGA university.') ?>
+            </div>
+            <!-- More details link -->
+            <div class="mdl-card__actions mdl-card--border">
+                <?= $this->Html->link(__('More Details'), '/projects/aesga', ['class' => 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect']); ?>
+            </div>
+        </div>
+    </div>
+    <!-- CESPA project div -->
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+        <div class="mdlc-project-card mdl-card mdl-shadow--2dp">
+            <!-- Project title -->
+            <div class="mdl-card__title mdl-card__title-cespa mdlc-card__title-no-space">
+                <h2 class="mdl-card__title-text mdl-color-text--primary-contrast mdlc-card__title-caption"><?= __('CESPA') ?></h2>
+            </div>
+            <!-- Project description -->
+            <div class="mdl-card__supporting-text">
+                <?= __('Entrance exam of AESGA university.') ?>
+            </div>
+            <!-- More details link -->
+            <div class="mdl-card__actions mdl-card--border">
+                <?= $this->Html->link(__('More Details'), '/projects/cespa', ['class' => 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect']); ?>
+            </div>
+        </div>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--hide-phone"></div>
     <!-- Frannca project div -->
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
         <div class="mdlc-project-card mdl-card mdl-shadow--2dp">
             <!-- Project title -->
             <div class="mdl-card__title mdl-card__title-frannca mdlc-card__title-no-space">
@@ -23,7 +73,7 @@ $this->append('meta', $this->Html->meta("description", __('Frannca develops solu
             </div>
             <!-- Project description -->
             <div class="mdl-card__supporting-text">
-                <?= __("Frannca company website.") ?>
+                <?= __('Frannca company.') ?>
             </div>
             <!-- More details link -->
             <div class="mdl-card__actions mdl-card--border">
@@ -37,6 +87,4 @@ $this->append('meta', $this->Html->meta("description", __('Frannca develops solu
         <!-- Tooltips -->
         <div class="mdl-tooltip mdl-tooltip--large" for="tt-get-code"><?= __('Get code on GitHub') ?></div>
     </div>
-    <!-- Empty div for next projets -->
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
 </div>
