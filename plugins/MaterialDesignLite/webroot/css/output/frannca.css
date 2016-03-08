@@ -9298,6 +9298,15 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 .mdl-card__title-frannca {
   background: url("../../img/projects/card-frannca.png") #d32f2f no-repeat center 58px; }
 
+.mdl-card__title-cespa {
+  background: url("../../img/projects/card-cespa.png") #006699 no-repeat center 58px; }
+
+.mdl-card__title-aesga {
+  background: url("../../img/projects/card-aesga.png") #b19736 no-repeat center 58px; }
+
+.mdl-card__title-cma {
+  background: url("../../img/projects/card-colegiocma.png") #167297 no-repeat center 58px; }
+
 .mdlc-color-text--gray-800 {
   color: #424242 !important; }
 
@@ -9315,6 +9324,15 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 
 .mdlc-ribbon-frannca {
   background: url("../../img/projects/cover-frannca.png") center/cover; }
+
+.mdlc-ribbon-cespa {
+  background: url("../../img/projects/cover-cespa.png") center/cover; }
+
+.mdlc-ribbon-aesga {
+  background: url("../../img/projects/cover-aesga.png") center/cover; }
+
+.mdlc-ribbon-cma {
+  background: url("../../img/projects/cover-cma.png") center/cover; }
 
 /* ==========  Miscellaneous  ========== */
 .github-button {
