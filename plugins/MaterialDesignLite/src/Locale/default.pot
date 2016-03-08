@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2016-03-08 00:41+0000\n"
+"POT-Creation-Date: 2016-03-08 23:43+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -45,45 +45,126 @@ msgstr ""
 msgid "See some of our works"
 msgstr ""
 
-#: Template/Pages/home.ctp:26
-msgid "Frannca company website."
+#: Template/Pages/home.ctp:20
+#: Template/Projects/cma.ctp:22
+msgid "CMA"
 msgstr ""
 
-#: Template/Pages/home.ctp:30
+#: Template/Pages/home.ctp:24
+msgid "CMA college."
+msgstr ""
+
+#: Template/Pages/home.ctp:28;45;62;80
 msgid "More Details"
 msgstr ""
 
-#: Template/Pages/home.ctp:38
+#: Template/Pages/home.ctp:37
+#: Template/Projects/aesga.ctp:22
+msgid "AESGA"
+msgstr ""
+
+#: Template/Pages/home.ctp:41
+msgid "AESGA university."
+msgstr ""
+
+#: Template/Pages/home.ctp:54
+#: Template/Projects/cespa.ctp:22
+msgid "CESPA"
+msgstr ""
+
+#: Template/Pages/home.ctp:58
+msgid "Entrance exam of AESGA university."
+msgstr ""
+
+#: Template/Pages/home.ctp:76
+msgid "Frannca company."
+msgstr ""
+
+#: Template/Pages/home.ctp:88
+#: Template/Projects/aesga.ctp:43
+#: Template/Projects/cespa.ctp:43
+#: Template/Projects/cma.ctp:43
 #: Template/Projects/frannca.ctp:45
 msgid "Get code on GitHub"
+msgstr ""
+
+#: Template/Projects/aesga.ctp:3
+msgid "Project: AESGA"
+msgstr ""
+
+#: Template/Projects/aesga.ctp:5
+#: Template/Projects/cespa.ctp:5
+#: Template/Projects/cma.ctp:5
+#: Template/Projects/frannca.ctp:5
+msgid "We develop our own website and provide its source code on GitHub."
+msgstr ""
+
+#: Template/Projects/aesga.ctp:10
+#: Template/Projects/cespa.ctp:10
+#: Template/Projects/cma.ctp:10
+#: Template/Projects/frannca.ctp:10
+msgid "Project"
+msgstr ""
+
+#: Template/Projects/aesga.ctp:23
+msgid "Autarquia do Ensino Superior de Garanhuns"
+msgstr ""
+
+#: Template/Projects/aesga.ctp:27
+#: Template/Projects/cespa.ctp:27
+#: Template/Projects/cma.ctp:27
+#: Template/Projects/frannca.ctp:27
+msgid "Description"
+msgstr ""
+
+#: Template/Projects/aesga.ctp:28
+msgid "The AESGA was created in order to meet the vocation of the city of Garanhuns and allow the creation of other higher education institutions."
+msgstr ""
+
+#: Template/Projects/aesga.ctp:30
+#: Template/Projects/cespa.ctp:30
+#: Template/Projects/cma.ctp:30
+#: Template/Projects/frannca.ctp:30
+msgid "Technologies"
+msgstr ""
+
+#: Template/Projects/aesga.ctp:31
+#: Template/Projects/cespa.ctp:31
+#: Template/Projects/cma.ctp:31
+#: Template/Projects/frannca.ctp:31
+msgid "Learn about the technologies used in this project."
+msgstr ""
+
+#: Template/Projects/cespa.ctp:3
+msgid "Project: CESPA"
+msgstr ""
+
+#: Template/Projects/cespa.ctp:23
+msgid "Centro de Seleção e Processamento de Dados"
+msgstr ""
+
+#: Template/Projects/cespa.ctp:28
+msgid "CESPA is the selection center to join the supeior AESGA educational institution."
+msgstr ""
+
+#: Template/Projects/cma.ctp:3
+msgid "Project: CMA"
+msgstr ""
+
+#: Template/Projects/cma.ctp:23
+msgid "Colégio Monsenhor Adelmar da Mota Valença"
+msgstr ""
+
+#: Template/Projects/cma.ctp:28
+msgid "Founded in the city of Garanhuns in 1956 by Monsignor Adelmar Mota Valencia, the CMA is an educational institution that extols education in Garanhuns."
 msgstr ""
 
 #: Template/Projects/frannca.ctp:3
 msgid "Project: Frannca"
 msgstr ""
 
-#: Template/Projects/frannca.ctp:5
-msgid "We develop our own website and provide its source code on GitHub."
-msgstr ""
-
-#: Template/Projects/frannca.ctp:10
-msgid "Project"
-msgstr ""
-
-#: Template/Projects/frannca.ctp:27
-msgid "Description"
-msgstr ""
-
 #: Template/Projects/frannca.ctp:28
 msgid "We develop our own website and provide its source code on GitHub. Feel free to check the quality of our work that goes beyond the visual."
-msgstr ""
-
-#: Template/Projects/frannca.ctp:30
-msgid "Technologies"
-msgstr ""
-
-#: Template/Projects/frannca.ctp:31
-msgid "Learn about the technologies used in this project."
 msgstr ""
 
 #: Controller/Component/AuthComponent.php:454
@@ -240,6 +321,10 @@ msgstr ""
 
 #: ORM/RulesChecker.php:83
 msgid "This value does not exist"
+msgstr ""
+
+#: Utility/Text.php:724
+msgid "and"
 msgstr ""
 
 #: Validation/Validator.php:102
