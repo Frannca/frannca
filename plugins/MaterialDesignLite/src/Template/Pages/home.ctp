@@ -7,7 +7,7 @@ $this->append('meta', $this->Html->meta("description", __('Frannca develops solu
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
         <h2 class="mdl-typography--display-3"><?= __('Solutions for your business') ?></h2>
-        <h3 class="mdl-typography--headline-2"><?= __('See some of our work') ?></h3>
+        <h3 class="mdl-typography--headline-2"><?= __('See some of our works') ?></h3>
     </div>
 </div>
 
