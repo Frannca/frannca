@@ -116,6 +116,18 @@ $color-accent-contrast:   255,255,255;  // White
         background: url('../../img/projects/card-frannca.png') rgb(211,47,47) no-repeat center 58px;
     }
 
+    .mdl-card__title-cespa {
+        background: url('../../img/projects/card-cespa.png') rgb(0,102,153) no-repeat center 58px;
+    }
+
+    .mdl-card__title-aesga {
+        background: url('../../img/projects/card-aesga.png') rgb(177,151,54) no-repeat center 58px;
+    }
+
+    .mdl-card__title-cma {
+        background: url('../../img/projects/card-colegiocma.png') rgb(22,114,151) no-repeat center 58px;
+    }
+
 
     .mdlc-color-text--gray-800 {
         color: #424242 !important;
@@ -138,6 +150,18 @@ $color-accent-contrast:   255,255,255;  // White
 
     .mdlc-ribbon-frannca {
         background: url('../../img/projects/cover-frannca.png') center / cover;
+    }
+
+    .mdlc-ribbon-cespa {
+        background: url('../../img/projects/cover-cespa.png') center / cover;
+    }
+
+    .mdlc-ribbon-aesga {
+        background: url('../../img/projects/cover-aesga.png') center / cover;
+    }
+
+    .mdlc-ribbon-cma {
+        background: url('../../img/projects/cover-cma.png') center / cover;
     }
 
 /* ==========  Miscellaneous  ========== */
