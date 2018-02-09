@@ -100,3 +100,7 @@
 .statistic > .value img {
     max-height: 4rem !important;
 }
+
+.ui.cards > .card > .image, .ui.card > .image {
+    background-color: white !important;
+}
