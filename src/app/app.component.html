@@ -34,8 +34,9 @@
                 <a class="toc item">
                     <i class="sidebar icon"></i>
                 </a>
-                <a class="active item">Home</a>
-                <a class="item">Clients</a>
+                <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:
+true}" class="item">Home</a>
+                <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
                 <a class="item">Portfolio</a>
                 <a class="item">About</a>
                 <div class="right menu">
