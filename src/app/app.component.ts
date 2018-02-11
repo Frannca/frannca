@@ -11,13 +11,11 @@ export class AppComponent implements OnInit {
     title = 'app';
 
     ngOnInit() {
-        console.log('ngAfterContentInit');
         // fix menu when passed
         jQuery('.masthead')
             .visibility({
                 once: false,
                 onBottomPassed: function() {
-                    console.log('onBottomPassed');
                     jQuery('.fixed.menu').transition('fade in');
                 },
                 onBottomPassedReverse: function() {
@@ -25,11 +23,6 @@ export class AppComponent implements OnInit {
                 }
             })
         ;
-
-        // create sidebar and attach to menu open
-        // jQuery('.ui.sidebar')
-        //     .sidebar('attach events', '.toc.item')
-        // ;
     }
 
 }

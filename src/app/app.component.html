@@ -1,8 +1,8 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
     <div class="ui fluid padding container">
-        <a class="active item">Home</a>
-        <a class="item">Clients</a>
+        <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
+        <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
         <a class="item">Portfolio</a>
         <a class="item">About</a>
         <div class="right menu">
@@ -34,8 +34,7 @@
                 <a class="toc item">
                     <i class="sidebar icon"></i>
                 </a>
-                <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:
-true}" class="item">Home</a>
+                <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
                 <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
                 <a class="item">Portfolio</a>
                 <a class="item">About</a>
