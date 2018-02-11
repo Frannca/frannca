@@ -12,6 +12,14 @@ gulp.task('copy-jquery', function() {
         .pipe(gulp.dest('src/assets/js/jquery/'));
 });
 
+// Copy flags
+gulp.task('copy-flags', function() {
+    gulp.src('./node_modules/flag-icon-css/css/*')
+        .pipe(gulp.dest('src/assets/css/flag-icon/'));
+    gulp.src('./node_modules/flag-icon-css/flags/**/*')
+        .pipe(gulp.dest('src/assets/css/flags'));
+});
+
 // Build assets
 gulp.task('build-assets', [
     'copy-semantic-ui',

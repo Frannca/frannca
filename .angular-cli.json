@@ -20,6 +20,7 @@
       "prefix": "app",
       "styles": [
         "assets/semantic/semantic.css",
+        "assets/css/flag-icon/flag-icon.min.css",
         "styles.css"
       ],
       "scripts": [
