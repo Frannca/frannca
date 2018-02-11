@@ -60,8 +60,8 @@
                 <div class="three wide column">
                     <h4 class="ui inverted header">Sitemap</h4>
                     <div class="ui inverted link list">
-                        <a href="#" class="item">Home</a>
-                        <a href="#" class="item">Clients</a>
+                        <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
+                        <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
                         <a href="#" class="item">Portfolio</a>
                         <a href="#" class="item">About</a>
                     </div>
