@@ -104,3 +104,7 @@
 .ui.cards > .card > .image, .ui.card > .image {
     background-color: white !important;
 }
+
+.item .bordered.image {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
