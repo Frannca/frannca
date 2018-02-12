@@ -4,13 +4,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ClientsComponent } from './clients/clients.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
-        ClientsComponent
+        ClientsComponent,
+        PortfolioComponent
     ],
     imports: [
         AppRoutingModule,
