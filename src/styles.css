@@ -108,3 +108,7 @@
 .item .bordered.image {
     border: 1px solid rgba(0, 0, 0, .1);
 }
+
+.padding {
+    padding: 26px !important;
+}
