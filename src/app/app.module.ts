@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ClientsComponent } from './clients/clients.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
         AppComponent,
         HomeComponent,
         ClientsComponent,
-        PortfolioComponent
+        PortfolioComponent,
+        AboutComponent
     ],
     imports: [
         AppRoutingModule,
