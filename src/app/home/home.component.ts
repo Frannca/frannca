@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 declare var jQuery: any;
 
 @Component({
@@ -8,7 +9,14 @@ declare var jQuery: any;
 })
 export class HomeComponent implements OnInit {
 
-    constructor() { }
+    constructor(
+        meta: Meta,
+        title: Title
+    ) {
+        title.setTitle('Frannca');
+
+        meta.updateTag({ name: 'description', content: 'Solutions for your business.' });
+    }
 
     ngOnInit() {
         jQuery('body').animate({ scrollTop: 0 }, 1000);

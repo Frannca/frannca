@@ -1,4 +1,5 @@
 import { AfterContentInit, Component } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 declare var jQuery: any;
 
 @Component({
@@ -8,7 +9,14 @@ declare var jQuery: any;
 })
 export class ClientsComponent implements AfterContentInit {
 
-    constructor() { }
+    constructor(
+        meta: Meta,
+        title: Title
+    ) {
+        title.setTitle('Clients - Frannca');
+
+        meta.updateTag({ name: 'description', content: 'The clients are fundamental for the existence of a company.' });
+    }
 
     ngAfterContentInit() {
         setTimeout(() => {

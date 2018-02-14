@@ -1,4 +1,5 @@
 import { OnInit, Component } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 declare var jQuery: any;
 
@@ -9,6 +10,18 @@ declare var jQuery: any;
 })
 export class AppComponent implements OnInit {
     title = 'app';
+
+    constructor(
+        meta: Meta,
+        title: Title
+    ) {
+        title.setTitle('Frannca');
+
+        meta.addTags([
+            { name: 'author', content: 'Frannca' },
+            { name: 'description', content: 'Solutions for your business.' },
+        ]);
+    }
 
     ngOnInit() {
         // fix menu when passed
