@@ -16,7 +16,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     ],
     imports: [
         AppRoutingModule,
-        BrowserModule
+        BrowserModule.withServerTransition({appId: 'frannca'})
     ],
     providers: [],
     bootstrap: [AppComponent]
