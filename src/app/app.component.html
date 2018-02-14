@@ -1,0 +1,82 @@
+<!-- Following Menu -->
+<div class="ui large top fixed hidden orange menu">
+    <div class="ui fluid padding container">
+        <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
+        <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
+        <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+        <a [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
+        <div class="right menu">
+            <div class="item">
+                <a class="github-button" href="https://github.com/Frannca/frannca" data-icon="octicon-star" data-show-count="true" aria-label="Star Frannca/frannca on GitHub">Star</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+    <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
+    <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
+    <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+    <a [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
+</div>
+
+
+<!-- Page Contents -->
+<div class="pusher">
+
+    <div class="ui vertical masthead center aligned segment">
+
+        <div class="ui fluid padding container">
+            <div class="ui large secondary orange pointing menu">
+                <a class="toc item">
+                    <i class="sidebar icon"></i>
+                </a>
+                <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
+                <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
+                <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+                <a [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
+                <div class="right menu">
+                    <div class="item">
+                        <a class="github-button" href="https://github.com/Frannca/frannca" data-icon="octicon-star" data-show-count="true" aria-label="Star Frannca/frannca on GitHub">Star</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui logo container">
+            <img src="../assets/images/logo.png" class="ui centered big image" alt="">
+        </div>
+
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <div class="ui inverted vertical footer segment">
+        <div class="ui fluid padding container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Sitemap</h4>
+                    <div class="ui inverted link list">
+                        <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
+                        <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
+                        <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+                        <a [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Network</h4>
+                    <div class="ui inverted link list">
+                        <a href="https://github.com/Frannca" class="item">GitHub</a>
+                        <a href="https://twitter.com/_frannca" class="item">Twitter</a>
+                        <a href="https://www.facebook.com/Frannca-481249078703790" class="item">Facebook</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header">Frannca</h4>
+                    <p>Solutions for your business</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

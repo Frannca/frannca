@@ -1,13 +1,8 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine On
+RewriteEngine On
 
-    RewriteCond %{HTTP_HOST}  ^www.frannca.com.br [NC]
-    RewriteRule ^(.*) http://frannca.com.br/$1 [L,R=301]
-    
-    RewriteCond %{HTTP_HOST}  !^(.*)com.br [NC]
-    RewriteCond %{HTTP_HOST}  ^www.frannca.com [NC]
-    RewriteRule ^(.*) http://frannca.com/$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
 
-    RewriteRule    ^$    webroot/    [L]
-    RewriteRule    (.*) webroot/$1    [L]
-</IfModule>
+RewriteRule ^(.*) /index.html [NC,L]

@@ -1,59 +1,25 @@
-/** Load Gulp plugins */
-var gulp        = require('gulp');
-var concat      = require('gulp-concat');
-var concatCss   = require('gulp-concat-css');
-var compressor  = require('gulp-compressor');
-var sass        = require('gulp-sass');
+var gulp = require('gulp');
 
-var paths = {
-    sass:       './plugins/MaterialDesignLite/webroot/sass/*.scss',
-    css:        './plugins/MaterialDesignLite/webroot/css/output/*.css',
-    scripts:    './bower_components/material-design-lite/material.min.js',
-    fonts:      './bower_components/font-awesome/fonts/*.{otf,eot,svg,ttf,woff,woff2}',
-};
-
-/** Sass generate */
-gulp.task('sass', function () {
-    gulp.src(paths.sass)
-        .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/output/'));
+// Copy Semantic UI files to assets folder
+gulp.task('copy-semantic-ui', function() {
+    gulp.src('./semantic/dist/**/*')
+        .pipe(gulp.dest('src/assets/semantic/'));
 });
 
-/** JavaScript generate */
-gulp.task('js', function() {
-    gulp.src(paths.scripts)
-        .pipe(concat('all.js'))
-        .pipe(compressor())
-        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/js/'));
+// Copy jQuery files to assets folder
+gulp.task('copy-jquery', function() {
+    gulp.src('./node_modules/jquery/dist/*')
+        .pipe(gulp.dest('src/assets/js/jquery/'));
 });
 
-/** CSS generate */
-gulp.task('css', function () {
-    gulp.src(paths.css)
-        .pipe(concatCss('all.min.css'))
-        .pipe(compressor({
-            'executeOption': {
-                maxBuffer: 10000*1024
-            }
-        }))
-        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/'));
+// Copy flags
+gulp.task('copy-flags', function() {
+    gulp.src('./node_modules/flag-icon-css/flags/4x3/br.svg')
+        .pipe(gulp.dest('src/assets/images/flags'));
 });
 
-/** Fontawesome generate **/
-gulp.task('copyfonts', function() {
-    gulp.src(paths.fonts)
-    .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/separate/fonts/'));
-});
-
-gulp.task('font-awesome', ['copyfonts'], function() {
-    gulp.src(['./bower_components/font-awesome/scss/font-awesome.scss'])
-        .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./plugins/MaterialDesignLite/webroot/css/separate/font-awesome/'));
-});
-
-/** Watch files **/
-gulp.task('watch', function() {
-    gulp.watch(paths.sass, ['sass']);
-    gulp.watch(paths.scripts, ['js']);
-    gulp.watch(paths.css, ['css']);
-});
+// Build assets
+gulp.task('build-assets', [
+    'copy-semantic-ui',
+    'copy-jquery',
+]);
