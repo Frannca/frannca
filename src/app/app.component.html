@@ -4,7 +4,7 @@
         <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
         <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
         <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
-        <a class="item">About</a>
+        <!--<a class="item">About</a>-->
         <div class="right menu">
             <div class="item">
                 <a class="github-button" href="https://github.com/Frannca/frannca" data-icon="octicon-star" data-show-count="true" aria-label="Star Frannca/frannca on GitHub">Star</a>
@@ -15,12 +15,10 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-    <a class="active item">Home</a>
-    <a class="item">Clients</a>
-    <a class="item">Portfolio</a>
-    <a class="item">About</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
+    <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
+    <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
+    <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+    <!--<a class="item">About</a>-->
 </div>
 
 
@@ -63,7 +61,7 @@
                         <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
                         <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
                         <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
-                        <a href="#" class="item">About</a>
+                        <!--<a href="#" class="item">About</a>-->
                     </div>
                 </div>
                 <div class="three wide column">

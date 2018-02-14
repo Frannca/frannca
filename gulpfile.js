@@ -14,10 +14,8 @@ gulp.task('copy-jquery', function() {
 
 // Copy flags
 gulp.task('copy-flags', function() {
-    gulp.src('./node_modules/flag-icon-css/css/*')
-        .pipe(gulp.dest('src/assets/css/flag-icon/'));
-    gulp.src('./node_modules/flag-icon-css/flags/**/*')
-        .pipe(gulp.dest('src/assets/css/flags'));
+    gulp.src('./node_modules/flag-icon-css/flags/4x3/br.svg')
+        .pipe(gulp.dest('src/assets/images/flags'));
 });
 
 // Build assets

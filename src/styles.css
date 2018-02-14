@@ -112,3 +112,14 @@
 .image.padding {
     padding: 26px !important;
 }
+
+.flag.icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+    vertical-align: top;
+}
