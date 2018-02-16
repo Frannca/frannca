@@ -1,4 +1,11 @@
-<p align="center"><img src="http://frannca.com/assets/images/logo.png" width="300px"></p>
+<p align="center">
+  <img src="http://frannca.com/assets/images/logo.png" width="300px" alt="Frannca Logo">
+  
+  <p align="center">
+    <a href="VERSION.txt"><img src="https://badge.fury.io/gh/Frannca%2Ffrannca.svg"></a>
+    <a href="https://travis-ci.org/Frannca/frannca"><img src="https://travis-ci.org/Frannca/frannca.svg?branch=master"></a>
+  </p>
+</p>
 
 # Frannca
 
