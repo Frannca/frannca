@@ -1,3 +1,5 @@
+<p align="center"><img src="http://frannca.com/assets/images/logo.png" width="300px"></p>
+
 # Frannca
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
