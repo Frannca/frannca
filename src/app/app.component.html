@@ -4,6 +4,7 @@
         <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
         <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
         <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+        <a [routerLink]="['/technologies']" [routerLinkActive]="['active']" class="item">Technologies</a>
         <a [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
         <div class="right menu">
             <div class="item">
@@ -15,10 +16,11 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-    <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
-    <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
-    <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
-    <a [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
+    <a (click)="sidebarToggle()" [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
+    <a (click)="sidebarToggle()" [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
+    <a (click)="sidebarToggle()" [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+    <a (click)="sidebarToggle()" [routerLink]="['/technologies']" [routerLinkActive]="['active']" class="item">Technologies</a>
+    <a (click)="sidebarToggle()" [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
 </div>
 
 
@@ -29,12 +31,13 @@
 
         <div class="ui fluid padding container">
             <div class="ui large secondary orange pointing menu">
-                <a class="toc item">
+                <a (click)="sidebarToggle()" class="toc item">
                     <i class="sidebar icon"></i>
                 </a>
                 <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
                 <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
                 <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+                <a [routerLink]="['/technologies']" [routerLinkActive]="['active']" class="item">Technologies</a>
                 <a [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
                 <div class="right menu">
                     <div class="item">
@@ -61,6 +64,7 @@
                         <a [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" class="item">Home</a>
                         <a [routerLink]="['/clients']" [routerLinkActive]="['active']" class="item">Clients</a>
                         <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']" class="item">Portfolio</a>
+                        <a [routerLink]="['/technologies']" [routerLinkActive]="['active']" class="item">Technologies</a>
                         <a [routerLink]="['/about']" [routerLinkActive]="['active']" class="item">About</a>
                     </div>
                 </div>
