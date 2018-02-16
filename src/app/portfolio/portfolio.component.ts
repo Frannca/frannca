@@ -21,7 +21,6 @@ export class PortfolioComponent implements AfterContentInit {
     ngAfterContentInit() {
         setTimeout(() => {
             const header = jQuery('#portfolio').position();
-            console.log(header.top);
             jQuery('body').animate({ scrollTop: header.top + 10 }, 1000);
         }, 500);
     }
