@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ClientsComponent } from './clients/clients.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
+import { TechnologiesComponent } from './technologies/technologies.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AboutComponent } from './about/about.component';
         HomeComponent,
         ClientsComponent,
         PortfolioComponent,
-        AboutComponent
+        AboutComponent,
+        TechnologiesComponent
     ],
     imports: [
         AppRoutingModule,
