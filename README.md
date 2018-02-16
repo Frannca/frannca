@@ -1,27 +1,32 @@
-# Frannca
+<p align="center">
+  <img src="http://frannca.com/assets/images/logo.png" width="300px" alt="Frannca Logo">
+  
+  <p align="center">
+    <a href="VERSION.txt"><img src="https://badge.fury.io/gh/Frannca%2Ffrannca.svg"></a>
+    <a href="https://travis-ci.org/Frannca/frannca"><img src="https://travis-ci.org/Frannca/frannca.svg?branch=master"></a>
+  </p>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
+## Summary
+- [Quickstart](#quickstart)
+- [Requirements](#requirements)
+- [Copyright and license](#copyright-and-license)
 
-## Development server
+## Quickstart
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Follow the steps below to get the site running:
 
-## Code scaffolding
+- Clone the repository: `git clone https://github.com/Frannca/frannca.git`
+- Go to the project folder: `cd frannca`
+- Install with [npm](https://www.npmjs.com): `npm install`
+- Build with [Angular CLI](http://cli.angular.io): `ng server`
+- Go to [localhost:4200](localhost:4200)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requirements
 
-## Build
+- Node 6.9.x ou superior
+- Npm 3.x.x ou superior
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Copyright and license
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Code copyright 2018 Frannca. Code released under the MIT license.
