@@ -38,4 +38,22 @@ export class AppComponent implements OnInit {
         ;
     }
 
+    public sidebarToggle() {
+        jQuery('.ui.sidebar')
+            .sidebar({
+                scrollLock: true,
+                transition: 'overlay',
+                mobileTransition: 'overlay',
+                context: jQuery('app-root')
+            })
+            .sidebar('setting', 'onShow', function() {
+                jQuery('body').addClass('locked');
+            })
+            .sidebar('setting', 'onHidden', function() {
+                jQuery('body').removeClass('locked');
+            })
+            .sidebar('toggle')
+        ;
+    }
+
 }
