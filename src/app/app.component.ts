@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
 
         meta.addTags([
             { name: 'author', content: 'Frannca' },
-            { name: 'description', content: 'Solutions for your business.' },
+            { name: 'description', content: 'Brazilian company that creates web solutions mainly using Angular and Lumen.' },
         ]);
     }
 
