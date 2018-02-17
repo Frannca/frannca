@@ -5,7 +5,6 @@ declare var jQuery: any;
 @Component({
   selector: 'app-technologies',
   templateUrl: './technologies.component.html',
-  styleUrls: ['./technologies.component.css']
 })
 export class TechnologiesComponent implements AfterContentInit {
 
