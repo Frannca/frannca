@@ -9,7 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon-1.png"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -20,7 +20,7 @@
       "prefix": "app",
       "styles": [
         "assets/semantic/semantic.css",
-        "styles.css"
+        "styles.scss"
       ],
       "scripts": [
         "assets/js/jquery/jquery.min.js",
@@ -58,7 +58,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }

@@ -1,0 +1,50 @@
+/* =====================
+ * Menu component
+ * ===================== */
+
+.locked {
+  overflow: hidden;
+}
+
+.hidden {
+  &.menu {
+    display: none;
+  }
+}
+
+.secondary {
+  &.pointing {
+    &.menu {
+      .toc {
+        &.item {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .ui {
+    &.fixed {
+      &.menu {
+        display: none !important;
+      }
+    }
+  }
+
+  .secondary {
+    &.pointing {
+      &.menu {
+        .item, .menu {
+          display: none;
+        }
+        .toc {
+          &.item {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
