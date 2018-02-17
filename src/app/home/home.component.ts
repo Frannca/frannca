@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
     ) {
         title.setTitle('Frannca');
 
-        meta.updateTag({ name: 'description', content: 'Solutions for your business.' });
+        meta.updateTag({ name: 'description', content: 'Brazilian company that creates web solutions mainly using Angular and Lumen.' });
     }
 
     ngOnInit() {
