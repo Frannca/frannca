@@ -1,0 +1,37 @@
+/* =====================
+ * Home
+ * ===================== */
+
+.company {
+  &.data {
+    margin: 40px 0 0 0;
+  }
+}
+
+.statistic > .value {
+  img {
+    max-height: 4rem !important;
+  }
+}
+
+.ui {
+  &.logo {
+    &.container {
+      margin: 80px 0 70px 0;
+    }
+  }
+
+  &.vertical {
+    &.stripe {
+      h3 {
+        font-size: 2em;
+      }
+      .horizontal {
+        &.divider {
+          margin: 3em 0em;
+        }
+      }
+      padding: 8em 0em;
+    }
+  }
+}

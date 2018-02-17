@@ -1,0 +1,16 @@
+/* =====================
+ * Flag
+ * ===================== */
+
+.flag {
+  &.icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 1em;
+    position: relative;
+    vertical-align: top;
+    width: 1.33333333em;
+  }
+}

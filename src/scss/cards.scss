@@ -1,0 +1,15 @@
+/* =====================
+ * Card component
+ * ===================== */
+
+.image {
+  &.padding {
+    padding: 26px !important;
+  }
+}
+
+.ui {
+  .cards > .card > .image, &.card > .image {
+    background-color: white !important;
+  }
+}
